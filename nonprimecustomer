@@ -1,0 +1,17 @@
+public class NonPrimeCustomer {
+	
+		int ContractPeriod;
+		//constructor
+		NonPrimeCustomer(int period){
+		
+		ContractPeriod = period;
+		}
+		void display(){
+		System.out.println("contract period in years:"+ContractPeriod);
+		}
+		public static void main(String args[])
+		{
+		NonPrimeCustomer myObj = new NonPrimeCustomer(2);
+		myObj.display();
+		}
+		}
